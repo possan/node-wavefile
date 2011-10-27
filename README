@@ -1,0 +1,10 @@
+Wavefile writer for Node.js (or other compatible environment)
+
+Simple to use:
+
+  var f = new WaveFile( "click.wav", 44100, 1 );
+  f.write( 1.0 );
+  f.write( 0.5 );
+  f.close();
+
+
